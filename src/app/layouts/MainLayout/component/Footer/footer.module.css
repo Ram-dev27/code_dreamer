@@ -1,0 +1,16 @@
+.footerContainer {
+  background-color: rgb(86, 84, 84);
+  color: white;
+}
+.footerContainer p {
+  margin: 10px 0 !important;
+}
+.footerBlock {
+  padding: 20px 70px;
+  display: flex;
+  gap: 100px;
+}
+.socialMedia {
+  background-color: rgb(36, 34, 34);
+  padding: 5px 70px;
+}

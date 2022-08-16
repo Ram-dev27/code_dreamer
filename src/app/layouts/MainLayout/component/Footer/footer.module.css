@@ -14,3 +14,11 @@
   background-color: rgb(36, 34, 34);
   padding: 5px 70px;
 }
+
+@media screen and (max-width:650px) {
+ .footerBlock{
+   padding: 0 25px ;
+   flex-direction: column;
+   gap: 0;
+ }  
+}

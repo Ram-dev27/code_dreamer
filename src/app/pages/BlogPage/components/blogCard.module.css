@@ -1,0 +1,33 @@
+.container {
+  width: 250px;
+  margin: 0 30px 15px 30px;
+  color: black;
+}
+
+.image {
+  width: 100%;
+  height: 150px;
+  box-shadow: 0 0 8px 1px gray;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.heading {
+  margin: 0 0 5px 0;
+}
+.content {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 16px;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+  .image {
+    height: 175px;
+  }
+}
+
+
